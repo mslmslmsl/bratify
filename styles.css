@@ -1,0 +1,43 @@
+body {
+    background-color: #8ace00ff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.brat-text {
+    font-family: 'Arial Narrow';
+    font-size: 140px;
+    filter: blur(2px);
+    text-align: center;
+    text-transform: lowercase;
+    padding: 30px 10px;
+}
+
+form {
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+    .brat-text {
+        font-size: 70px;
+        filter: blur(1.5px);
+    }
+
+    #notBratText {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    form {
+        width: 100%;
+    }
+}
