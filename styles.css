@@ -12,7 +12,7 @@ body {
 
 .brat-text {
     font-size: 140px;
-    filter: blur(2px);
+    filter: blur(2.5px);
     text-align: center;
     text-transform: lowercase;
     padding: 70px;
@@ -34,7 +34,7 @@ form {
 
     .brat-text {
         font-size: 70px;
-        filter: blur(1.5px);
+        filter: blur(2px);
         padding: 30px;
     }
 
