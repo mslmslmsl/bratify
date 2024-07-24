@@ -1,1 +1,1 @@
-Bratify text. See [here](bratify.com).
+Bratify text. See [here](https://bratify.com/).
