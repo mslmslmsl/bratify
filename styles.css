@@ -5,11 +5,11 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
+    font-family: 'Arial Narrow', 'Roboto Condensed', Arial, sans-serif;
 }
 
 .brat-text {
-    font-family: 'Arial Narrow';
     font-size: 140px;
     filter: blur(2px);
     text-align: center;
@@ -27,6 +27,10 @@ form {
 
 /* Mobile devices */
 @media only screen and (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+
     .brat-text {
         font-size: 70px;
         filter: blur(1.5px);
@@ -36,9 +40,11 @@ form {
     #notBratText {
         width: 100%;
         box-sizing: border-box;
+        font-size: 16px;
     }
 
     form {
         width: 100%;
+        padding: 10px;
     }
 }
