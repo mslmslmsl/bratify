@@ -15,7 +15,7 @@ body {
     filter: blur(2.5px);
     text-align: center;
     text-transform: lowercase;
-    padding: 70px;
+    padding: 150px 70px;
 }
 
 form {
@@ -34,8 +34,8 @@ form {
 
     .brat-text {
         font-size: 70px;
-        filter: blur(2px);
-        padding: 30px;
+        filter: blur(1.5px);
+        padding: 70px 30px;
     }
 
     #notBratText {
