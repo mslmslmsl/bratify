@@ -1,1 +1,1 @@
-**Bratify** text.
+Bratify text.
